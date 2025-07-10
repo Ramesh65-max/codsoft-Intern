@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+header {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #2c3e50;
+    color: #fff; 
+}
+
+.section {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #34495e; 
+    color: #fff; 
+    border-bottom: 1px solid #2c3e50; 
+}
+
+.section h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.section .bike-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.section .bike {
+    flex: 1 1 300px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #a7d0db; 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section .bike img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.section .bike h3 {
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+.section .bike p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.section .offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #e74c3c; 
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.section .offer img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.section .offer-details {
+    text-align: left;
+    margin-left: 20px;
+    color: #fff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
